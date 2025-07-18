@@ -1,0 +1,5 @@
+com/exemplo/estoqueapi/EstoqueApiApplication.class
+com/exemplo/estoqueapi/model/Produto.class
+com/exemplo/estoqueapi/service/EstoqueService.class
+com/exemplo/estoqueapi/service/EstoqueServiceImpl.class
+com/exemplo/estoqueapi/controller/ProdutoController.class
