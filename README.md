@@ -39,7 +39,7 @@ Uma API RESTful completa para controle de estoque, desenvolvida em **Spring Boot
 
 ## 📦 Exemplo de Requisição (POST)
 
-```json
+json
 {
   "id": 1,
   "nome": "Teclado",
@@ -57,7 +57,7 @@ Uma API RESTful completa para controle de estoque, desenvolvida em **Spring Boot
 
 ### Clone o repositório:
 
-```bash
+bash:
 git clone https://github.com/DAVIMEDX/API-REST.git
 
 Execute a aplicação:
