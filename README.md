@@ -58,30 +58,33 @@ json
 ### Clone o repositório:
 
 bash:
+```text
 git clone https://github.com/DAVIMEDX/API-REST.git
-
+```
 Execute a aplicação:
 
 bash:
+```text
 cd API-REST
 mvn spring-boot:run
-...............................
+```
 
 A API estará disponível em: http://localhost:8080
 
 Testando a API
 
 Listar produtos:
+
 bash:
+```text
 curl http://localhost:8080/produtos
-...............................
+```
 
 Adicionar produto:
 bash:
-curl -X POST -H "Content-Type: application/json" \
--d '{"id":1,"nome":"Mouse","quantidade":30,"preco":89.90}' \
-http://localhost:8080/produtos
-...............................
+```text
+curl -X POST -H "Content-Type: application/json" \ -d '{"id":1,"nome":"Mouse","quantidade":30,"preco":89.90}'\http://localhost:8080/produtos
+```
 
 ## 📂 Estrutura do Projeto:
 
