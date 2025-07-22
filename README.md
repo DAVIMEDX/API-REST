@@ -1,91 +1,98 @@
-📦 API de Gerenciamento de Estoque com Spring Boot
-https://img.shields.io/badge/Spring_Boot-2.7.5-green
-https://img.shields.io/badge/License-MIT-blue
+# 📦 API de Gerenciamento de Estoque com Spring Boot
 
-Uma API RESTful completa para controle de estoque, desenvolvida em Spring Boot, com operações CRUD e arquitetura em camadas.
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.7.5-green)](https://spring.io/projects/spring-boot)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-🚀 Funcionalidades
-✔ Cadastro de produtos (nome, quantidade, preço)
-✔ Consulta por ID ou listagem completa
-✔ Atualização e remoção de itens
-✔ Validações básicas e respostas HTTP semânticas
+Uma API RESTful completa para controle de estoque, desenvolvida em **Spring Boot**, com operações CRUD e arquitetura em camadas.
 
-🛠 Tecnologias
-Java 11
+---
 
-Spring Boot (Web, DevTools)
+## 🚀 Funcionalidades
 
-JSON para troca de dados
+✔️ Cadastro de produtos (nome, quantidade, preço)  
+✔️ Consulta por ID ou listagem completa  
+✔️ Atualização e remoção de itens  
+✔️ Validações básicas e respostas HTTP semânticas  
 
-Maven para gerenciamento de dependências
+---
 
-🔌 Endpoints
-Método	Endpoint	Descrição
-POST	/produtos	Adiciona novo produto
-GET	/produtos	Lista todos os produtos
-GET	/produtos/{id}	Busca produto por ID
-PUT	/produtos/{id}	Atualiza produto existente
-DELETE	/produtos/{id}	Remove produto do estoque
-Exemplo de requisição (POST):
+## 🛠 Tecnologias Utilizadas
 
-json
+- Java 11  
+- Spring Boot (Web, DevTools)  
+- JSON para troca de dados  
+- Maven para gerenciamento de dependências  
+
+---
+
+## 🔌 Endpoints
+
+| Método | Endpoint           | Descrição                     |
+|--------|--------------------|-------------------------------|
+| POST   | `/produtos`        | Adiciona novo produto         |
+| GET    | `/produtos`        | Lista todos os produtos       |
+| GET    | `/produtos/{id}`   | Busca produto por ID          |
+| PUT    | `/produtos/{id}`   | Atualiza produto existente    |
+| DELETE | `/produtos/{id}`   | Remove produto do estoque     |
+
+---
+
+## 📦 Exemplo de Requisição (POST)
+
+```json
 {
-    "id": 1,
-    "nome": "Teclado",
-    "quantidade": 50,
-    "preco": 199.90
+  "id": 1,
+  "nome": "Teclado",
+  "quantidade": 50,
+  "preco": 199.90
 }
-⚙️ Como Executar
-Pré-requisitos:
+---
 
-JDK 11+
+## ⚙️ Como Executar
 
-Maven 3.6+
+### Pré-requisitos:
 
-Clone o repositório:
+- JDK 11+
+- Maven 3.6+
 
-bash
+### Clone o repositório:
+
+```bash
 git clone https://github.com/DAVIMEDX/API-REST.git
+
 Execute a aplicação:
 
-bash
+bash:
 cd API-REST
 mvn spring-boot:run
+...............................
+
 A API estará disponível em: http://localhost:8080
 
-🧪 Testando a API
-Use Postman ou cURL:
+Testando a API
 
-bash
-# Listar produtos
+Listar produtos:
+bash:
 curl http://localhost:8080/produtos
+...............................
 
-# Adicionar produto
+Adicionar produto:
+bash:
 curl -X POST -H "Content-Type: application/json" \
 -d '{"id":1,"nome":"Mouse","quantidade":30,"preco":89.90}' \
 http://localhost:8080/produtos
-📂 Estrutura do Projeto
-text
+...............................
+
+## 📂 Estrutura do Projeto:
 src/
 ├── main/
 │   ├── java/
 │   │   └── com/exemplo/estoqueapi/
-│   │       ├── controller/  # Endpoints REST
-│   │       ├── model/       # Entidade Produto
-│   │       ├── service/     # Lógica de negócio
+│   │       ├── controller/        # Endpoints REST
+│   │       ├── model/             # Entidade Produto
+│   │       ├── service/           # Lógica de negócio
 │   │       └── EstoqueApiApplication.java
 │   └── resources/
 │       └── application.properties
-📌 Melhorias Futuras
-Integrar banco de dados (H2/MySQL)
 
-Adicionar autenticação JWT
-
-Implementar Swagger para documentação
-
-Criar testes automatizados
-
-📜 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
-
-Desenvolvido por [DAVIMEDX] 👨‍💻
+### Desenvolvido por DAVIMEDX 👨‍💻
