@@ -1,7 +1,8 @@
 # 📦 API de Gerenciamento de Estoque com Spring Boot
 
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.7.5-green)](https://spring.io/projects/spring-boot)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)](https://choosealicense.com/licenses/mit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](https://choosealicense.com/licenses/mit/)
+
 
 Uma API RESTful completa para controle de estoque, desenvolvida em **Spring Boot**, com operações CRUD e arquitetura em camadas.
 
