@@ -71,9 +71,9 @@ mvn spring-boot:run
 
 A API estará disponível em: http://localhost:8080
 
-Testando a API
+## Testando a API
 
-### Listar produtos:
+Listar produtos:
 
 bash:
 ```text
