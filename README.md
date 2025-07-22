@@ -81,6 +81,7 @@ curl http://localhost:8080/produtos
 ```
 
 Adicionar produto:
+
 bash:
 ```text
 curl -X POST -H "Content-Type: application/json" \ -d '{"id":1,"nome":"Mouse","quantidade":30,"preco":89.90}'\http://localhost:8080/produtos
