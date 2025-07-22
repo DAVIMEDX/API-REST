@@ -73,7 +73,7 @@ A API estará disponível em: http://localhost:8080
 
 Testando a API
 
-Listar produtos:
+### Listar produtos:
 
 bash:
 ```text
