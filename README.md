@@ -105,7 +105,7 @@ src/
 
 ```
 
-## Vídeo Explixativo:
+## Vídeo Explicativo:
 
 https://drive.google.com/drive/folders/1h-k9Pzj5XGAxk1osWXtlkvdjm-ltEo-R?usp=sharing
 
