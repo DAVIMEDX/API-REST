@@ -104,4 +104,4 @@ src/
 │       └── application.properties
 
 ```
-### Desenvolvido por DAVIMEDX 👨‍💻
+### Desenvolvido por DAVIMEDX e nobregaldmc 👨‍💻
